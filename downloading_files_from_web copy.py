@@ -15,7 +15,7 @@ else:
     raise Exception("Failed to established connection")
 
 
-# Alternatively
+# Checking and catching Error for Error
 
 res = requests.get('https://inventwithpython.com/page_that_does_not_exist')
 try:
